@@ -215,7 +215,7 @@ if __name__ == "__main__":
         "device": "cuda" if torch.cuda.is_available() else "cpu",
         "model_path": "D:/25AI+/Computer-Vision-System/fundus-server/Fundus-classifier/central_classifier.pth",
         "class_names": ["NRG", "RG"],
-        "deepseek_api_key": "sk-48a87d7ae6cd4fa2a8a3f0322b0dbfd5"  # API密钥
+        "deepseek_api_key": "xxxx"  # API密钥
     }
 
     # 分类预测
