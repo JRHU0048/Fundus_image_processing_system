@@ -1,0 +1,1 @@
+Final Test Dice score: 0.6957Final Test accuracy: 0.8284Validation Precision: 0.7751Validation Recall: 0.8564Validation F1 Score: 0.7943Validation Specificity: 0.8564Validation IoU: 0.6668
