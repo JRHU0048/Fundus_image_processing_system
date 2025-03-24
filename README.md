@@ -25,7 +25,7 @@ npm run serve
 pip install -r requirement.txt
 ```
 
-2、进入server目录下，执行下面命令运行（注：上传代码中未包含模型，因此无法完成检测，但包含完整代码）
+2、进入fundus-server目录下，执行下面命令运行（注：上传代码中未包含模型，因此无法完成检测，但包含完整代码）
 ```
 python main.py
 ```
