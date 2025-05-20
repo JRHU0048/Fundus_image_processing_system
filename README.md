@@ -1,40 +1,42 @@
+# 👁️ Ophthalmology Disease Diagnosis System  
 
+## 🌐 Web Frontend  
 
-## 眼科疾病诊断系统
+The web frontend is developed based on **Vue-admin-template**. Deployment guide:  
 
-
-## Web端
-
-Web端基于Vue-admin-temple进行开发，部署教程如下：
-
-1、在完成node环境的配置后，进入fundus-web目录下，打开cmd，执行下面的命令下载模块到本地
-```
+1️⃣ After configuring the Node.js environment, navigate to the `fundus-web` directory and run the following command to install dependencies:  
+```bash
 npm install
-```
-2、在当前目录(./fundus-web)下，执行下面的命令可直接启动项目(默认81端口)
-```
+```  
+
+2️⃣ In the same directory (`./fundus-web`), execute the following command to launch the project (default port: **81**):  
+```bash
 npm run serve
-```
+```  
 
-## 服务端
+---  
 
-服务端接口采用FastApi开发，部署教程如下：
+## 🖥️ Backend Server  
 
-1、安装依赖包
-```
+The backend API is built with **FastAPI**. Deployment guide:  
+
+1️⃣ Install required Python packages:  
+```bash
 pip install -r requirement.txt
-```
+```  
 
-2、进入fundus-server目录下，执行下面命令运行（注：上传代码中未包含模型，因此无法完成检测，但包含完整代码）
-```
+2️⃣ Navigate to the `fundus-server` directory and run the following command (Note: The uploaded code does **not** include the trained model, so full detection is unavailable, but the complete code is provided):  
+```bash
 python main.py
-```
+```  
 
----
+---  
 
-## 涉及开源项目：
-- [![机器视觉相关的完整项目/系统](https://img.shields.io/badge/-机器视觉相关的完整项目/系统-red)](https://github.com/ceresOPA/Computer-Vision-System)
-- [![目标检测算法](https://img.shields.io/badge/-YOLOv5-blue)](https://github.com/ultralytics/yolov5)
-- [![图像修复](https://img.shields.io/badge/-Bringing--Old--Photos--Back--to--Life-orange)](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life)
-- [![图像上色](https://img.shields.io/badge/-colorization-1E88B0)](https://github.com/richzhang/colorization)
-- [![前端模板框架](https://img.shields.io/badge/-vue--admin--template-green)](https://github.com/PanJiaChen/vue-admin-template)
+## 🔗 Open-Source Projects Used  
+
+- [![Complete Computer Vision Projects/Systems](https://img.shields.io/badge/-Complete%20Computer%20Vision%20Projects%20%2F%20Systems-red)](https://github.com/ceresOPA/Computer-Vision-System)  
+- [![Object Detection Algorithm](https://img.shields.io/badge/-YOLOv5-blue)](https://github.com/ultralytics/yolov5)  
+- [![Image Restoration](https://img.shields.io/badge/-Bringing%20Old%20Photos%20Back%20to%20Life-orange)](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life)  
+- [![Image Colorization](https://img.shields.io/badge/-Colorization-1E88B0)](https://github.com/richzhang/colorization)  
+- [![Frontend Template Framework](https://img.shields.io/badge/-Vue--admin--template-green)](https://github.com/PanJiaChen/vue-admin-template)  
+
